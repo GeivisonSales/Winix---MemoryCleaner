@@ -1,0 +1,173 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Winix - MemoryCleaner
+</name>
+</assembly>
+<members>
+<member name="T:Winix___MemoryCleaner.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Winix___MemoryCleaner.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Winix___MemoryCleaner.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Winix___MemoryCleaner.My.Resources.Resources.band_brazil">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Winix___MemoryCleaner.My.Resources.Resources.band_USA">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Winix___MemoryCleaner.My.Resources.Resources.clear_20">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Winix___MemoryCleaner.My.Resources.Resources.clear_red">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Winix___MemoryCleaner.My.Resources.Resources.close">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Winix___MemoryCleaner.My.Resources.Resources.cpu">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Winix___MemoryCleaner.My.Resources.Resources.Dual_Ring_1s_200px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Winix___MemoryCleaner.My.Resources.Resources.Eclipse_0_9s_200px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Winix___MemoryCleaner.My.Resources.Resources.hide">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Winix___MemoryCleaner.My.Resources.Resources.info">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Winix___MemoryCleaner.My.Resources.Resources.lg_ring_loading_gif">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Winix___MemoryCleaner.My.Resources.Resources.loader">
+<summary>
+  Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+&lt;style&gt;
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #e74c3c;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 0.5s linear infinite; /* Safari */
+  animation: spin 0.5s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+   [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:Winix___MemoryCleaner.My.Resources.Resources.loading1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Winix___MemoryCleaner.My.Resources.Resources.Open_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Winix___MemoryCleaner.My.Resources.Resources.ram">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Winix___MemoryCleaner.My.Resources.Resources.refresh">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Winix___MemoryCleaner.My.Resources.Resources.refresh_white">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Winix___MemoryCleaner.My.Resources.Resources.Registry_Editor_30px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Winix___MemoryCleaner.My.Resources.Resources.Registry_Editor_47px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Winix___MemoryCleaner.My.Resources.Resources.Restart_100px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Winix___MemoryCleaner.My.Resources.Resources.rocket_20_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Winix___MemoryCleaner.My.Resources.Resources.rocket_20_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Winix___MemoryCleaner.My.Resources.Resources.rocket_52">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Winix___MemoryCleaner.My.Resources.Resources.settings_white">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Winix___MemoryCleaner.My.Resources.Resources.Windows_Client_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6EC8CBC7-AC6F-4EAD-A67F-A0F18794A9E6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Winix___MemoryCleaner.My.MyApplication</StartupObject>
+    <RootNamespace>Winix___MemoryCleaner</RootNamespace>
+    <AssemblyName>Winix - MemoryCleaner</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Winix - MemoryCleaner.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Winix - MemoryCleaner.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>uilogo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="BETA_VIEW_PANEL.Designer.vb">
+      <DependentUpon>BETA_VIEW_PANEL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BETA_VIEW_PANEL.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ConfigPanel.Designer.vb">
+      <DependentUpon>ConfigPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigPanel.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1New.Designer.vb">
+      <DependentUpon>Form1New.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1New.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formcleaner.Designer.vb">
+      <DependentUpon>formcleaner.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formcleaner.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formconfig.Designer.vb">
+      <DependentUpon>formconfig.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formconfig.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GamerPanel.Designer.vb">
+      <DependentUpon>GamerPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GamerPanel.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HomePanel.Designer.vb">
+      <DependentUpon>HomePanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HomePanel.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InfoPanel.Designer.vb">
+      <DependentUpon>InfoPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InfoPanel.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InformeBugsPanel.Designer.vb">
+      <DependentUpon>InformeBugsPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InformeBugsPanel.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MinePanel.Designer.vb">
+      <DependentUpon>MinePanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MinePanel.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="msgreboot.Designer.vb">
+      <DependentUpon>msgreboot.vb</DependentUpon>
+    </Compile>
+    <Compile Include="msgreboot.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PopUpRam.Designer.vb">
+      <DependentUpon>PopUpRam.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PopUpRam.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PremiumForm.Designer.vb">
+      <DependentUpon>PremiumForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PremiumForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Processos.vb" />
+    <Compile Include="SplashScreenWinix.Designer.vb">
+      <DependentUpon>SplashScreenWinix.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreenWinix.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="theme.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="modu.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BETA_VIEW_PANEL.resx">
+      <DependentUpon>BETA_VIEW_PANEL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigPanel.resx">
+      <DependentUpon>ConfigPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.en.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1New.resx">
+      <DependentUpon>Form1New.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formcleaner.resx">
+      <DependentUpon>formcleaner.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formconfig.en-US.resx">
+      <DependentUpon>formconfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formconfig.pt-BR.resx">
+      <DependentUpon>formconfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formconfig.resx">
+      <DependentUpon>formconfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GamerPanel.resx">
+      <DependentUpon>GamerPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomePanel.resx">
+      <DependentUpon>HomePanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoPanel.resx">
+      <DependentUpon>InfoPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InformeBugsPanel.resx">
+      <DependentUpon>InformeBugsPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MinePanel.resx">
+      <DependentUpon>MinePanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="msgreboot.resx">
+      <DependentUpon>msgreboot.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopUpRam.resx">
+      <DependentUpon>PopUpRam.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PremiumForm.resx">
+      <DependentUpon>PremiumForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreenWinix.resx">
+      <DependentUpon>SplashScreenWinix.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clear_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cpu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ram.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="iconwinix.ico" />
+    <Content Include="iconwinix_white.ico" />
+    <None Include="Resources\UI_SPLASHSCREEN WinixMemoryCleaner_2.png" />
+    <None Include="Resources\Button_Info.png" />
+    <None Include="Resources\ButtonCheckUpdate.png" />
+    <None Include="Resources\ButtonCheckUpdate_Checking.png" />
+    <None Include="Resources\ButtonCheckUpdate_UPDATE.png" />
+    <None Include="Resources\ButtonCheckUpdate_UPDATED.png" />
+    <None Include="Resources\Gamer_Form.png" />
+    <None Include="Resources\Gamer_Form_2.png" />
+    <None Include="Resources\Gamer_Form_3.png" />
+    <None Include="Resources\Button_Gamer_ALPHATEST.png" />
+    <None Include="Resources\Button_Gamer_ALPHATEST_Developing.png" />
+    <None Include="Resources\Gamer_Form_4.png" />
+    <None Include="Resources\UI_LOGO_5_40px.png" />
+    <None Include="Resources\UI_LOGO_5.png" />
+    <None Include="Resources\UI_SPLASHSCREEN WinixMemoryCleaner_3.png" />
+    <None Include="Resources\ButtonSocial_Twitter.png" />
+    <None Include="Resources\ButtonSocial_Youtube.png" />
+    <None Include="Resources\maintenence_icon.png" />
+    <None Include="Resources\rede_icon.png" />
+    <None Include="Resources\game_controller_icon.png" />
+    <None Include="Resources\folder_icon.png" />
+    <None Include="Resources\NEW_Button_Settings.png" />
+    <None Include="Resources\NEW_Button_Gamer_Clicked.png" />
+    <None Include="Resources\NEW_Button_Home.png" />
+    <None Include="Resources\NEW_Button_Home_Clicked.png" />
+    <None Include="Resources\NEW_Button_Settings_Clicked.png" />
+    <None Include="Resources\UI_SOCIALBUTTONS.png" />
+    <None Include="Resources\Button_BETA VIEW.png" />
+    <None Include="Resources\Button_BETA VIEW-1x.png" />
+    <None Include="Resources\UI_PATRONS.png" />
+    <None Include="Resources\UI_PATRONS_VIEW_INFORMATION.png" />
+    <None Include="Resources\Ads NULL WMC.png" />
+    <None Include="Resources\UI_WMC_LOGO 2019.png" />
+    <None Include="Resources\UI_SPLASHSCREEN WinixMemoryCleaner_2019_ADS_FOR_BUY.png" />
+    <None Include="Resources\UI_MINE ABOUT US.png" />
+    <None Include="Resources\UI_MINE DOWNLOAD.png" />
+    <None Include="Resources\UI_MINE SOURCE_FORM.png" />
+    <Content Include="uilogo.ico" />
+    <Content Include="UI_LOGO_3.ico" />
+    <None Include="Resources\UI_LOGO_3_40px.png" />
+    <None Include="Resources\UI_LOGO_3.png" />
+    <None Include="Resources\UI_ADS.png" />
+    <None Include="Resources\comingsoonIMG_2.png" />
+    <None Include="Resources\UI_SPLASHSCREEN WinixMemoryCleaner.png" />
+    <None Include="Resources\icoBroom.png" />
+    <None Include="Resources\clear_red1.png" />
+    <None Include="Resources\comingsoonIMG.png" />
+    <None Include="Resources\Windows_Button_Icon.png" />
+    <None Include="Resources\Rocket_Button_Icon.png" />
+    <None Include="Resources\Button_Close_Clicked1.png" />
+    <None Include="Resources\Button_Close1.png" />
+    <None Include="Resources\Button_Settings_Clicked.png" />
+    <None Include="Resources\Button_Home_Clicked.png" />
+    <None Include="Resources\Button_Gamer_Clicked.png" />
+    <None Include="Resources\Button_Close_Clicked.png" />
+    <None Include="Resources\LOGOWINIX 2017 [FLAT WHITE].png" />
+    <None Include="Resources\Button_Settings.png" />
+    <None Include="Resources\Button_Home.png" />
+    <None Include="Resources\Button_Gamer_Blocked.png" />
+    <None Include="Resources\Button_Gamer.png" />
+    <None Include="Resources\Button_Close.png" />
+    <None Include="Resources\band_USA.png" />
+    <None Include="Resources\band_brazil.png" />
+    <None Include="Resources\loader.txt" />
+    <None Include="Resources\Restart_100px.png" />
+    <None Include="Resources\Dual Ring-1s-200px.gif" />
+    <None Include="Resources\Eclipse-0.9s-200px.gif" />
+    <None Include="Resources\lg.ring-loading-gif.gif" />
+    <None Include="Resources\loading1.gif" />
+    <None Include="Resources\Registry Editor_30px.png" />
+    <None Include="Resources\Registry Editor_47px.png" />
+    <None Include="Resources\Open_48px.png" />
+    <None Include="Resources\Windows Client_48px.png" />
+    <None Include="Resources\rocket_20_2.png" />
+    <None Include="Resources\rocket_20_1.png" />
+    <None Include="Resources\rocket_52.png" />
+    <None Include="Resources\settings_white.png" />
+    <None Include="Resources\refresh_white.png" />
+    <None Include="Resources\refresh.png" />
+    <None Include="Resources\clear_20.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

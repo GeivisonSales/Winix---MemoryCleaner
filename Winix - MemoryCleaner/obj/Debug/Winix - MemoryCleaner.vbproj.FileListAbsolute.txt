@@ -1,0 +1,33 @@
+C:\Users\Geivison\Desktop\ProjetosVB\Winix - MemoryCleaner\Winix - MemoryCleaner\bin\Debug\Winix - MemoryCleaner.exe.config
+C:\Users\Geivison\Desktop\ProjetosVB\Winix - MemoryCleaner\Winix - MemoryCleaner\obj\Debug\Winix - MemoryCleaner.exe
+C:\Users\Geivison\Desktop\ProjetosVB\Winix - MemoryCleaner\Winix - MemoryCleaner\obj\Debug\Winix - MemoryCleaner.xml
+C:\Users\Geivison\Desktop\ProjetosVB\Winix - MemoryCleaner\Winix - MemoryCleaner\obj\Debug\Winix - MemoryCleaner.pdb
+C:\Users\Geivison\Desktop\ProjetosVB\Winix - MemoryCleaner\Winix - MemoryCleaner\bin\Debug\Winix - MemoryCleaner.exe
+C:\Users\Geivison\Desktop\ProjetosVB\Winix - MemoryCleaner\Winix - MemoryCleaner\bin\Debug\Winix - MemoryCleaner.pdb
+C:\Users\Geivison\Desktop\ProjetosVB\Winix - MemoryCleaner\Winix - MemoryCleaner\bin\Debug\Winix - MemoryCleaner.xml
+C:\Users\Geivison\Desktop\ProjetosVB\Winix - MemoryCleaner\Winix - MemoryCleaner\bin\Debug\en\Winix - MemoryCleaner.resources.dll
+C:\Users\Geivison\Desktop\ProjetosVB\Winix - MemoryCleaner\Winix - MemoryCleaner\bin\Debug\en-US\Winix - MemoryCleaner.resources.dll
+C:\Users\Geivison\Desktop\ProjetosVB\Winix - MemoryCleaner\Winix - MemoryCleaner\bin\Debug\pt-BR\Winix - MemoryCleaner.resources.dll
+C:\Users\Geivison\Desktop\ProjetosVB\Winix - MemoryCleaner\Winix - MemoryCleaner\obj\Debug\Winix___MemoryCleaner.BETA_VIEW_PANEL.resources
+C:\Users\Geivison\Desktop\ProjetosVB\Winix - MemoryCleaner\Winix - MemoryCleaner\obj\Debug\Winix___MemoryCleaner.ConfigPanel.resources
+C:\Users\Geivison\Desktop\ProjetosVB\Winix - MemoryCleaner\Winix - MemoryCleaner\obj\Debug\Winix___MemoryCleaner.Form1.resources
+C:\Users\Geivison\Desktop\ProjetosVB\Winix - MemoryCleaner\Winix - MemoryCleaner\obj\Debug\Winix___MemoryCleaner.Form1New.resources
+C:\Users\Geivison\Desktop\ProjetosVB\Winix - MemoryCleaner\Winix - MemoryCleaner\obj\Debug\Winix___MemoryCleaner.formcleaner.resources
+C:\Users\Geivison\Desktop\ProjetosVB\Winix - MemoryCleaner\Winix - MemoryCleaner\obj\Debug\Winix___MemoryCleaner.formconfig.resources
+C:\Users\Geivison\Desktop\ProjetosVB\Winix - MemoryCleaner\Winix - MemoryCleaner\obj\Debug\Winix___MemoryCleaner.GamerPanel.resources
+C:\Users\Geivison\Desktop\ProjetosVB\Winix - MemoryCleaner\Winix - MemoryCleaner\obj\Debug\Winix___MemoryCleaner.HomePanel.resources
+C:\Users\Geivison\Desktop\ProjetosVB\Winix - MemoryCleaner\Winix - MemoryCleaner\obj\Debug\Winix___MemoryCleaner.InfoPanel.resources
+C:\Users\Geivison\Desktop\ProjetosVB\Winix - MemoryCleaner\Winix - MemoryCleaner\obj\Debug\Winix___MemoryCleaner.InformeBugsPanel.resources
+C:\Users\Geivison\Desktop\ProjetosVB\Winix - MemoryCleaner\Winix - MemoryCleaner\obj\Debug\Winix___MemoryCleaner.msgreboot.resources
+C:\Users\Geivison\Desktop\ProjetosVB\Winix - MemoryCleaner\Winix - MemoryCleaner\obj\Debug\Winix___MemoryCleaner.Resources.resources
+C:\Users\Geivison\Desktop\ProjetosVB\Winix - MemoryCleaner\Winix - MemoryCleaner\obj\Debug\Winix___MemoryCleaner.PopUpRam.resources
+C:\Users\Geivison\Desktop\ProjetosVB\Winix - MemoryCleaner\Winix - MemoryCleaner\obj\Debug\Winix___MemoryCleaner.PremiumForm.resources
+C:\Users\Geivison\Desktop\ProjetosVB\Winix - MemoryCleaner\Winix - MemoryCleaner\obj\Debug\Winix___MemoryCleaner.SplashScreenWinix.resources
+C:\Users\Geivison\Desktop\ProjetosVB\Winix - MemoryCleaner\Winix - MemoryCleaner\obj\Debug\Winix___MemoryCleaner.Form1.en.resources
+C:\Users\Geivison\Desktop\ProjetosVB\Winix - MemoryCleaner\Winix - MemoryCleaner\obj\Debug\Winix___MemoryCleaner.formconfig.en-US.resources
+C:\Users\Geivison\Desktop\ProjetosVB\Winix - MemoryCleaner\Winix - MemoryCleaner\obj\Debug\Winix___MemoryCleaner.formconfig.pt-BR.resources
+C:\Users\Geivison\Desktop\ProjetosVB\Winix - MemoryCleaner\Winix - MemoryCleaner\obj\Debug\Winix - MemoryCleaner.vbproj.GenerateResource.Cache
+C:\Users\Geivison\Desktop\ProjetosVB\Winix - MemoryCleaner\Winix - MemoryCleaner\obj\Debug\en\Winix - MemoryCleaner.resources.dll
+C:\Users\Geivison\Desktop\ProjetosVB\Winix - MemoryCleaner\Winix - MemoryCleaner\obj\Debug\en-US\Winix - MemoryCleaner.resources.dll
+C:\Users\Geivison\Desktop\ProjetosVB\Winix - MemoryCleaner\Winix - MemoryCleaner\obj\Debug\pt-BR\Winix - MemoryCleaner.resources.dll
+C:\Users\Geivison\Desktop\ProjetosVB\Winix - MemoryCleaner\Winix - MemoryCleaner\obj\Debug\Winix___MemoryCleaner.MinePanel.resources

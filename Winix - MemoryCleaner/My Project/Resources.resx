@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="loading1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loading1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_Close_Clicked1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button_Close_Clicked1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_ADS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_ADS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_Info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button_Info.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_Close_Clicked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button_Close_Clicked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEW_Button_Settings_Clicked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NEW_Button_Settings_Clicked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_SPLASHSCREEN WinixMemoryCleaner_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_SPLASHSCREEN WinixMemoryCleaner_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loader" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loader.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="ram" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ram.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_Settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button_Settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_Close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button_Close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonCheckUpdate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonCheckUpdate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="band_brazil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\band_brazil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="maintenence_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\maintenence_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icoBroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icoBroom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gamer_Form_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gamer_Form_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gamer_Form_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gamer_Form_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="settings_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settings_white.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refresh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_PATRONS_VIEW_INFORMATION" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_PATRONS_VIEW_INFORMATION.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonCheckUpdate_Checking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonCheckUpdate_Checking.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonCheckUpdate_UPDATE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonCheckUpdate_UPDATE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refresh_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refresh_white.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_SPLASHSCREEN WinixMemoryCleaner_2019_ADS_FOR_BUY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_SPLASHSCREEN WinixMemoryCleaner_2019_ADS_FOR_BUY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clear_red1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clear_red1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rocket_Button_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rocket_Button_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clear_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clear_20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_BETA VIEW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button_BETA VIEW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clear_red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clear_red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_Close1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button_Close1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_LOGO_5_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_LOGO_5_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_Settings_Clicked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button_Settings_Clicked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_LOGO_3_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_LOGO_3_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_Gamer_Blocked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button_Gamer_Blocked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rocket_20_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rocket_20_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_LOGO_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_LOGO_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lg.ring-loading-gif" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lg.ring-loading-gif.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_Gamer_ALPHATEST_Developing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button_Gamer_ALPHATEST_Developing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Open_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Open_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_LOGO_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_LOGO_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_SPLASHSCREEN WinixMemoryCleaner_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_SPLASHSCREEN WinixMemoryCleaner_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_SPLASHSCREEN WinixMemoryCleaner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_SPLASHSCREEN WinixMemoryCleaner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="comingsoonIMG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\comingsoonIMG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folder_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_Home" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button_Home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hide.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rocket_52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rocket_52.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_PATRONS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_PATRONS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gamer_Form" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gamer_Form.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEW_Button_Gamer_Clicked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NEW_Button_Gamer_Clicked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Windows_Button_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows_Button_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_Home_Clicked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button_Home_Clicked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gamer_Form_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gamer_Form_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rocket_20_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rocket_20_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_WMC_LOGO 2019" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_WMC_LOGO 2019.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dual Ring-1s-200px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dual Ring-1s-200px.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Restart_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Restart_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_Gamer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button_Gamer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonCheckUpdate_UPDATED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonCheckUpdate_UPDATED.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="comingsoonIMG_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\comingsoonIMG_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEW_Button_Settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NEW_Button_Settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="band_USA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\band_USA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_SOCIALBUTTONS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_SOCIALBUTTONS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Eclipse-0.9s-200px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eclipse-0.9s-200px.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEW_Button_Home" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NEW_Button_Home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cpu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cpu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_Gamer_Clicked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button_Gamer_Clicked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEW_Button_Home_Clicked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NEW_Button_Home_Clicked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonSocial_Twitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonSocial_Twitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\info.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_BETA VIEW-1x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button_BETA VIEW-1x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_Gamer_ALPHATEST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button_Gamer_ALPHATEST.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOGOWINIX 2017 [FLAT WHITE]" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LOGOWINIX 2017 [FLAT WHITE].png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="game_controller_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\game_controller_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rede_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rede_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Registry Editor_47px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Registry Editor_47px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Windows Client_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows Client_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ads NULL WMC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ads NULL WMC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Registry Editor_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Registry Editor_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonSocial_Youtube" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonSocial_Youtube.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_MINE ABOUT US" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_MINE ABOUT US.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_MINE DOWNLOAD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_MINE DOWNLOAD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_MINE SOURCE_FORM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UI_MINE SOURCE_FORM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

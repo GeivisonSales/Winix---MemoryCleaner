@@ -1,0 +1,10 @@
+C:\Users\Geivison\Desktop\ProjetosVB\Winix - MemoryCleaner\wmcUpdater\bin\Debug\wmcUpdater.exe.config
+C:\Users\Geivison\Desktop\ProjetosVB\Winix - MemoryCleaner\wmcUpdater\bin\Debug\wmcUpdater.exe
+C:\Users\Geivison\Desktop\ProjetosVB\Winix - MemoryCleaner\wmcUpdater\bin\Debug\wmcUpdater.pdb
+C:\Users\Geivison\Desktop\ProjetosVB\Winix - MemoryCleaner\wmcUpdater\bin\Debug\wmcUpdater.xml
+C:\Users\Geivison\Desktop\ProjetosVB\Winix - MemoryCleaner\wmcUpdater\obj\Debug\wmcUpdater.Form1.resources
+C:\Users\Geivison\Desktop\ProjetosVB\Winix - MemoryCleaner\wmcUpdater\obj\Debug\wmcUpdater.Resources.resources
+C:\Users\Geivison\Desktop\ProjetosVB\Winix - MemoryCleaner\wmcUpdater\obj\Debug\wmcUpdater.vbproj.GenerateResource.Cache
+C:\Users\Geivison\Desktop\ProjetosVB\Winix - MemoryCleaner\wmcUpdater\obj\Debug\wmcUpdater.exe
+C:\Users\Geivison\Desktop\ProjetosVB\Winix - MemoryCleaner\wmcUpdater\obj\Debug\wmcUpdater.xml
+C:\Users\Geivison\Desktop\ProjetosVB\Winix - MemoryCleaner\wmcUpdater\obj\Debug\wmcUpdater.pdb
